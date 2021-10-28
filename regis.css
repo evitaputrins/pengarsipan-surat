@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  padding: 20px;
+  margin-top: 125px;
+  margin-bottom: 125px;
+  background-color: #0e0bcc3a;
+  border-radius: 10px;
+}
+.title h2 {
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 30pt;
+  font-weight: 500;
+  color: black;
+}
+.form-input {
+  margin-bottom: 5px;
+}
+.label {
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  padding: 3px;
+  margin: 5px;
+  display: block;
+  font-size: 14pt;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  color: black;
+}
+.input {
+  padding: 5px;
+  border-radius: 0px;
+  font-family: "poppins";
+  margin-left: 7px;
+  border: none;
+  width: 320px;
+  background-color: white;
+}
+.input:hover {
+  border: 0.4px solid rgb(40, 31, 83);
+}
+.equal {
+  margin-left: 5px;
+  margin-right: 10px;
+  color: black;
+  font-family: "poppins";
+  font-size: 20pt;
+}
+.r-input {
+  margin-left: 15px;
+  color: rgb(236, 209, 234);
+}
+.r-label {
+  font-family: "poppins";
+  font-size: 14pt;
+  color: black;
+}
+.form-submit {
+  margin-top: 50px;
+  float: right;
+}
+#submit-btn {
+  padding: 8px 10px;
+  margin-right: 8px;
+  margin-left: 8px;
+  border-radius: 40px;
+  font-family: "poppins";
+  background-color: rgb(111, 255, 111);
+  color: black;
+  letter-spacing: 1px;
+  border: none;
+  font-size: 12pt;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+#submit-btn:hover {
+  background-color: white;
+  font-weight: bolder;
+  color: rgb(111, 255, 111);
+}
+#batal-btn {
+  padding: 8px 10px;
+  margin-right: 8px;
+  border-radius: 40px;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  background-color: rgb(250, 103, 103);
+  color: black;
+  letter-spacing: 1px;
+  border: none;
+  font-size: 12pt;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+}
+#batal-btn:hover {
+  background-color: white;
+  font-weight: bolder;
+  color: rgb(250, 103, 103);
+}
+.back {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.back h4 {
+  text-align: center;
+}
+.back h4 a {
+  padding: 8px 10px;
+  border-radius: 40px;
+  font-family: "poppins";
+  background-color: white;
+  color: black;
+  letter-spacing: 2px;
+  border: none;
+  font-size: 12pt;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+.back h4 a:hover {
+  background-color: white;
+  color: rgb(236, 77, 77);
+  font-size: 12pt;
+  font-weight: bolder;
+}

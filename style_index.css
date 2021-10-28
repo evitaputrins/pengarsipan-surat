@@ -1,0 +1,345 @@
+.navbar {
+  background-color: #292970;
+}
+
+.navbar img {
+  float: left;
+  margin-right: 20px;
+}
+.line2 {
+  background-color: #023047;
+  padding: 5px;
+  margin-left: -11px;
+}
+.line {
+  background-color: #023047;
+  padding: 5px;
+}
+
+.d-none {
+  margin-left: 30px;
+}
+
+.nav-link {
+  margin-left: -5px;
+}
+
+.drop {
+  margin-bottom: 60%;
+}
+.col {
+  background-color: aliceblue;
+}
+.sidebar {
+  margin-top: 100px;
+}
+
+#content-container {
+  float: left;
+  width: 81%;
+  position: relative !important;
+  background-color: #ffffff;
+}
+
+#content {
+  float: left;
+  width: 100%;
+  min-height: 454px;
+  background-image: 2px solid #c4c4c4;
+  padding: 0px;
+  margin-bottom: 6px;
+  font-family: "poppins";
+}
+
+/* Tombol */
+.tombol {
+  border-radius: 4px;
+  font-size: 16px;
+  text-decoration: none;
+  padding-top: 3px;
+  margin-top: 20px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #ffa60073;
+  color: black;
+}
+.tombol:hover {
+  color: #191970;
+  background-color: #ffa60073;
+}
+#tombol-tambah-container {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#tombol-tambah-container2 {
+  float: left;
+  margin-top: 60px;
+  margin-left: -135px;
+}
+
+.tombol-opsi-container {
+  float: left;
+}
+
+/* Tombol End */
+
+/* Tabel */
+
+#tabel-tampil {
+  border: 2px #c4c4c4;
+  width: 100%;
+  margin-top: -5px;
+  margin-right: 20px;
+  border-color: #ffa60073;
+}
+#tabel-tampil tr:nth-child(odd) {
+  background-color: #ffa60073;
+}
+#tabel-tampil tr th {
+  background-color: #ffa60073;
+  color: #023047;
+  padding: 4px;
+  text-align: left;
+}
+#tabel-tampil tr td img {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+#tabel-tampil td {
+  padding: 4px;
+}
+#label-tampil-no {
+  width: 30px;
+}
+/* Tabel end */
+
+/* Beranda Judul */
+
+#beranda-judul {
+  text-align: center;
+  background-color: white;
+  margin-top: 20px;
+}
+#beranda-judul-data {
+  text-align: center;
+  background-color: white;
+  margin-top: 10px;
+  color: #023047;
+}
+#beranda-judul-cetak {
+  text-align: center;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+#beranda-konten {
+  text-align: center;
+  padding-top: 100px;
+  color: red;
+}
+
+/* Beranda end  */
+
+/* Footer */
+#footer {
+  padding: 0px;
+  margin-left: -10px;
+  background-color: #292970;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+}
+#footer h3 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 16pt;
+}
+#footer h4 {
+  margin-top: 0px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "poppins";
+  font-weight: 300;
+  font-size: 14pt;
+}
+
+/* Footer End */
+
+/* Content artikel end  */
+
+/* Event */
+article {
+  float: left;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  position: inherit;
+  margin-left: -250px;
+  z-index: 1;
+}
+@media (max-width: 600px) {
+  article {
+    height: auto;
+  }
+}
+
+.konten,
+.p {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: column;
+}
+article .konten {
+  width: 30%;
+  height: 400px;
+  margin: 50px 100px 40px 40px;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  float: right;
+}
+
+article .konten img {
+  width: 95.8%;
+  height: 150px;
+  margin: 5px 5px 5px 5px;
+}
+article .konten:hover {
+  opacity: 0.9;
+}
+article .konten .judul a {
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: x-large;
+  color: #020101;
+}
+article .konten a:hover {
+  opacity: 0.9;
+}
+article .isi {
+  width: 98.5%;
+  height: auto;
+  margin: 5px 5px 5px 5px;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  float: left;
+  margin-top: 150px;
+}
+article .isi .judul {
+  font-size: xx-large;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+article .isi p {
+  margin-top: -8px;
+  padding-left: 5px;
+  font-size: 17px;
+}
+article .isi img {
+  float: left;
+  margin: 5px 5px 5px 5px;
+}
+
+/*end of event*/
+/*CATEGORY*/
+/*pengaturan isi*/
+#isi {
+  padding: 5px;
+  width: 70%;
+  height: auto;
+  position: static;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: block;
+}
+/*pengaturan posting*/
+.isiposting {
+  width: 1000px;
+  height: 300px;
+  margin-bottom: 40px;
+  padding: 5px;
+}
+/*pengaturan gambar yang di halaman depan*/
+.gambardepan {
+  float: left;
+  height: 160px;
+  width: 150px;
+  margin-right: 5px;
+  margin-top: 3px;
+  border: 1px solid #dddddd;
+}
+/*pengaturan heading2 "Judul" */
+.content #isiposting h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin-top: 4px;
+  margin-bottom: 3px;
+}
+/*pengaturan anchor atau link yang ada di isiposting */
+.content #isiposting a {
+  text-decoration: none;
+}
+.content #isiposting a:hover {
+  color: yellow;
+}
+
+.content #isipostingall {
+  background-color: white;
+  width: 98%;
+  height: auto;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  padding: 5px;
+}
+.content #isipostingall h2 {
+  text-align: center;
+  color: maroon;
+  font-size: 20px;
+  font-weight: bold;
+}
+.content #gambarposting1 {
+  width: 230px;
+  height: 250px;
+  float: right;
+  margin: 10px 5px 5px 10px;
+}
+.content #beranda {
+  margin-left: 250px;
+}
+a.tbl-biru {
+  background: #3f72af;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+
+  text-decoration: none;
+}
+
+a.tbl-biru:hover {
+  background: #fc5185;
+  text-decoration: none;
+}
+
+a.tbl-pink {
+  background: #fc5185;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+
+  text-decoration: none;
+}
+
+a.tbl-pink:hover {
+  background: #3f72af;
+  text-decoration: none;
+}
